@@ -124,3 +124,35 @@ ul li a{
     transform: translate(50%, -50%);
 }
 #more {display: none;}
+footer {
+    padding: 60px;
+    background-color:white;
+    
+}
+.footer-container {
+    width: 60%;
+    margin: 20px auto 5px;
+    padding: 10px;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container p {
+    font-weight: 800;
+    margin-top: 8px;
+}
+.footer-container span{
+    color: blue;
+
+}
+.goBack{
+    background-color: rgb(217, 246, 248);
+}
+.Back input{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight:700;
+    border-radius: 50%;
+}
